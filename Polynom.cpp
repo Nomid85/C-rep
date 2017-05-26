@@ -18,7 +18,7 @@ int main()
 	   system("pause");
 	   return 0;
    }
-   catch (PolyParser::SyntaxException e)
+   catch (exception& e)
    {
 	   cout << e.what() << endl;
 	   system("pause");
